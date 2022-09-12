@@ -1,0 +1,189 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 749dfe75-c0d6-4872-9330-29c5bbcb8ff8)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "Gate Driver: TMC6100\n\n\n\n\nPotential:\nGate Driver: UCC27614DSGR, UCC27524"
+    (at 14.3002 185.42 0)
+    (effects (font (size 1.27 1.27) italic) (justify left bottom))
+    (uuid 9b631613-8665-491a-b2ec-365bed932f1b)
+  )
+
+  (sheet (at 137.16 48.26) (size 27.94 15.24) (fields_autoplaced)
+    (stroke (width 0.001) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid d3864351-6d69-4ebb-89b4-b7d46648eeed)
+    (property "Sheet name" "Gate Driver" (id 0) (at 137.16 47.6241 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "gatedriver.kicad_sch" (id 1) (at 137.16 64.0089 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/260659f3-23ec-45b9-b93e-380772ab7aa6"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/34a2b52a-85cf-407c-b2ea-1e1bf989f4ff"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/d72a0d84-d713-4031-b41f-02fd7c63ba83"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/406a2a54-5f92-458d-8e59-7f25da017a69"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/8a48e69c-426d-4262-9bdd-2719bc53c00e"
+      (reference "#PWR013") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/6d5876ab-24ae-4a62-b18a-6ec4ed12c5b7"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/067a6460-5322-4bf1-a5b2-56cea263eec2"
+      (reference "C8") (unit 1) (value "470nF/16V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/86312a4b-812c-472a-a240-21c4365d4dac"
+      (reference "C9") (unit 1) (value "470nF/16V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/5d00466c-da6f-420c-a0f9-49c94d53a3c3"
+      (reference "C10") (unit 1) (value "470nF/16V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/78b99046-fbb0-4de7-ac91-66c26e194096"
+      (reference "C11") (unit 1) (value "MotorC") (footprint "Capacitor_SMD:C_1812_4532Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/1e47391b-0cd5-40f8-9413-ac5e7894cdc9"
+      (reference "C12") (unit 1) (value "MotorC") (footprint "Capacitor_SMD:C_1812_4532Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/c0498de3-0a8e-4e29-8376-eb0ed294cc84"
+      (reference "C13") (unit 1) (value "MotorC") (footprint "Capacitor_SMD:C_1812_4532Metric_Pad1.57x3.40mm_HandSolder")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/2883885e-cbc7-4fb4-8c01-64dc2d3be432"
+      (reference "C14") (unit 1) (value "MotorC") (footprint "Capacitor_SMD:C_Elec_8x5.4")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/706a28de-db4d-45af-904f-d7d7959b798c"
+      (reference "C15") (unit 1) (value "MotorC") (footprint "Capacitor_SMD:C_Elec_8x5.4")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/f00443f7-c86f-415e-95b1-6fc3929a4ba1"
+      (reference "C16") (unit 1) (value "MotorC") (footprint "Capacitor_SMD:C_Elec_8x5.4")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/4b6088f9-74e4-4c6f-8074-21e3ce3148a8"
+      (reference "C17") (unit 1) (value "MotorC") (footprint "Capacitor_SMD:C_Elec_8x5.4")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/7ad660e4-1dec-4a27-9b22-ba140e72223c"
+      (reference "FID1") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/34f69a53-5dc4-481d-b5ca-56f5a1c4d421"
+      (reference "FID2") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/0864ce7e-b567-4ba2-a1fc-94615b34b5c9"
+      (reference "FID3") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/8dc5ff95-44ac-4648-8938-8bd5873f3e5e"
+      (reference "FID4") (unit 1) (value "Fiducial") (footprint "Fiducial:Fiducial_0.5mm_Mask1mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/8356f58b-c2ab-49b1-a521-ea270311a36d"
+      (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.7mm_M2.5")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/d96a1e51-a7fb-4fbc-b03c-3bb0a522e471"
+      (reference "H2") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/a95d0b6e-0fb2-4411-afee-a894a16d0ece"
+      (reference "H3") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/ff3cdc05-d7b3-406d-9da1-c7a746f47282"
+      (reference "H4") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_2.5mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/f6f03c69-3ab7-43e0-baed-8d80062ab2d2"
+      (reference "J1") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/1a5788d7-df21-43e7-b83e-a9727314cf26"
+      (reference "J2") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/cf7b28ee-b304-4d98-a7d3-b9234279b9f3"
+      (reference "J3") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/df6b6b98-253c-4037-83c7-28e65d7e8a5f"
+      (reference "J4") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/18b07ff6-1de1-459e-b1b4-07fba01919c7"
+      (reference "J5") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/6d038103-4f01-404d-9d7c-12e73cdfe461"
+      (reference "J6") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/9e40a32d-8ca8-4b1a-bfb0-1f8a323a787a"
+      (reference "J7") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/2e7a1403-2513-4579-b436-f6934aaa9ce0"
+      (reference "J8") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/8db3622e-0f6a-42f8-a4ab-85b1a427b80e"
+      (reference "J9") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/e32a44ba-0aed-4b24-9da8-7759599c2314"
+      (reference "J10") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/5fb1def5-7ea8-49dc-b3a9-cbf9d869d607"
+      (reference "J11") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/6853df8c-3491-44d5-b69f-4ca9cbe94eed"
+      (reference "J12") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_1x2mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/e994c45d-3a23-405e-85ff-bd0cb1eccf45"
+      (reference "J13") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/0489d588-ce62-40ae-97ee-1aa4f240bc3a"
+      (reference "J14") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/e298adb2-2bbf-4321-938f-04b7053bbf39"
+      (reference "J15") (unit 1) (value "Conn_01x01_Male") (footprint "Connector_Wire:SolderWirePad_1x01_SMD_5x10mm")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/6b0d9556-65e8-45c5-af8b-8a910e889956"
+      (reference "Q1") (unit 1) (value "IRFH5010PbF") (footprint "SiFOCR:IRFH5010PbF")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/dcd17647-75f1-489b-b424-896dd7eec743"
+      (reference "Q2") (unit 1) (value "IRFH5010PbF") (footprint "SiFOCR:IRFH5010PbF")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/cabd687a-ecbb-45df-b4ae-ad2f67f6952a"
+      (reference "Q3") (unit 1) (value "IRFH5010PbF") (footprint "SiFOCR:IRFH5010PbF")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/624dc2dc-d63d-4ae5-afea-dd6933048b9a"
+      (reference "Q4") (unit 1) (value "IRFH5010PbF") (footprint "SiFOCR:IRFH5010PbF")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/2b7fdf82-b869-4563-bf0a-ceb1cb6dfbb8"
+      (reference "Q5") (unit 1) (value "IRFH5010PbF") (footprint "SiFOCR:IRFH5010PbF")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/7f8117a3-10c7-4d26-828e-8ab7dbb01458"
+      (reference "Q6") (unit 1) (value "IRFH5010PbF") (footprint "SiFOCR:IRFH5010PbF")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/615ce9c4-c565-4c0d-ac1c-fafaddb743d3"
+      (reference "R3") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/505bd64b-c502-4cc3-854f-deb323049d8d"
+      (reference "R4") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/f23a2e02-9130-41ad-963c-9f238fe5a972"
+      (reference "R5") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/29d15072-494e-40ac-a4db-8c106a056732"
+      (reference "R6") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/63db7e1f-db43-4448-ada5-9d1b53b591b3"
+      (reference "R7") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/d3864351-6d69-4ebb-89b4-b7d46648eeed/277ceead-f68b-414f-99d2-fbc8f05a687f"
+      (reference "R8") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+  )
+)
